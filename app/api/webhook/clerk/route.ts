@@ -207,4 +207,4 @@ export const POST = async (request: Request) => {
   }
 };
 
-export const maxDuration = 60;
+export const maxDuration = 59;

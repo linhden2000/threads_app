@@ -6,7 +6,7 @@ import ProfileHeader from "@/components/shared/ProfileHeader";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import Image from "next/image";
 import { profileTabs } from "@/constants";
-import ThreadsTab from "@/components/shared/ThreadsTabs";
+import ThreadsTab from "@/components/shared/ThreadsTab";
 
 async function Page({params} : {params: {id: string}}) {
     const user = await currentUser();
